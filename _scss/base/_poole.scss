@@ -35,7 +35,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-* {
+ * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -161,22 +161,27 @@ code {
 }
 pre {
   display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  max-width: 100%;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.8rem;
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
-  white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 85%;
   color: inherit;
   background-color: transparent;
+  max-width: 100%;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 /* Pygments via Jekyll */
@@ -186,6 +191,7 @@ pre code {
 }
 .highlight pre {
   margin-bottom: 0;
+  border: 1px solid #ccc;
 }
 
 /* Gist via GitHub Pages */
@@ -212,10 +218,11 @@ pre code {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 1rem;
+  padding: 0rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
+  font-size: 0.8rem;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -354,7 +361,6 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
