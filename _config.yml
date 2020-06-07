@@ -3,7 +3,7 @@ title: Jinsub Kim's Dev Blog
 tagline: "A Jekyll theme based on Lanyon"
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
-url: https://wkimdev.github.io/
+url: https://jinsub-kim-dev.github.io/
 logo: "/public/logo.png"
 
 # Site configurations
@@ -24,8 +24,8 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: Swiri
-  description: <strong>Jinsub Kim's 개발 블로그</strong><br><br>풋내기가 상급자로 가는 과정은<br>자신의 부족함을 아는 것이 그 첫 번째.
+  name: Jinsub Kim
+  description: <strong>Jinsub Kim's 개발 블로그</strong><br><br>훌륭한 코드는 훌륭한 문서보다 낫다.<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Steve McConnell -
   gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
     # linkedin:
