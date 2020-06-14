@@ -17,7 +17,7 @@ tags: Toy-project Spring-boot Spring
 
 - Project : 스프링 의존성 관리 및 빌드에 사용될 툴. **Maven Project**를 선택.
 - Language : 프로젝트 프로그래밍 언어. **Java**를 선택.
-- Spring Boot : 스프링 부트 버전을 지정. **2.3.1**을 선택.
+- Spring Boot : 스프링 부트 버전을 지정. **2.1.5**을 선택.
 - Project Metadata :
   - Group : 패키지 구성에 사용되는 경로, 도메인의 역순으로 쓴다.
   - Artifact : 프로젝트 공식 이름.
