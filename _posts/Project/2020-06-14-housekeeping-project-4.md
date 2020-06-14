@@ -3,7 +3,7 @@ layout: post
 title: "토이 프로젝트(4) : MySQL 연동과 JPA 사용"
 date: 2020-06-14 12:28:00 +0900
 categories: Project
-tags: Toy-project Spring-boot Spring Maven
+tags: Toy-project Spring-boot Spring Database MySQL JPA
 ---
 
 ## MySQL 연동하기
@@ -22,7 +22,8 @@ tags: Toy-project Spring-boot Spring Maven
 ```
 
 그리고 `src/main/resources/application.properties` 파일을 열어 다음과 같이 Connection 정보를 입력한다.<br>
-(현재는 로컬 DB를 사용하고 있지만, 향후 DB 서버를 따로 구축하고 Replication을 통한 로드 밸런싱을 진행한다.)
+> 지금은 로컬 DB를 사용하지만, 향후 DB 서버를 따로 구축하고 Replication을 통한 로드 밸런싱을 진행한다.
+
 ```properties
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/housekeeping?serverTimezone=UTC&characterEncoding=UTF-8
