@@ -136,7 +136,7 @@ public class Category {
 
 ## Transaction Repository 생성
 
-`Transaction` Entity에 대한 Repository 코드는 다음과 같다. (Repository 테스트 코드는 다루지 않겠다. 대신 [Github](https://github.com/jinsub-kim-dev/toy-project-housekeeping-book)에서 확인할 수 있다.)
+`Transaction`의 Repository 코드는 다음과 같다. (테스트 코드는 생략한다. 대신 [Github](https://github.com/jinsub-kim-dev/toy-project-housekeeping-book)에서 확인할 수 있다.)
 
 ```java
 package com.jinsub.housekeeping.api.transaction.repository;
