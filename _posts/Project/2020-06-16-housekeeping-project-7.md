@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "토이 프로젝트(7) : Transaction Entity와 연관 관계"
-date: 2020-06-15 22:45:00 +0900
+date: 2020-06-16 22:45:00 +0900
 categories: Project
 tags: Toy-project Spring-boot Spring JPA
 ---

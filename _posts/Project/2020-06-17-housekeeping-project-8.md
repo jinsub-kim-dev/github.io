@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "토이 프로젝트(8) : JPA에서의 생성 및 수정시간 생성 자동화"
-date: 2020-06-15 22:45:00 +0900
+date: 2020-06-17 22:45:00 +0900
 categories: Project
 tags: Toy-project Spring-boot Spring JPA
 ---
