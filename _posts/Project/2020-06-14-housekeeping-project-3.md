@@ -24,7 +24,7 @@ tags: Toy-project Spring-boot Spring MySQL Database
 ![image](/post_assets/2020-06-14/tb_transaction.png)
 
 ### tb_category
-카테고리는 거래 출처 종류를 나타낸다. 예를 들어 월급, 식비, 교통, 편의점 등이 있다. 서비스를 사용하는 모든 사용자에게 공통으로 관리되는 카테고리와 사용자가 직접 추가할 수 있는 카테고리가 있다. 이를 분류하기 위해 `common_flag` 필드를 사용했다. 해당 값이 `true`면 모두 사용할 수 있는 공통 카테고리가 된다.
+카테고리는 거래 출처 종류를 나타낸다. 예를 들어 월급, 식비, 교통, 편의점 등이 있다. 서비스를 사용하는 모든 사용자에게 공통으로 관리되는 카테고리와 사용자가 직접 추가할 수 있는 카테고리가 있다. 이를 분류하기 위해 `category_type` 필드를 사용했다. 해당 값에 따라 기본 카테고리/커스텀 카테고리로 구분한다.
 
 ![image](/post_assets/2020-06-14/tb_category.png)
 
@@ -36,7 +36,7 @@ tags: Toy-project Spring-boot Spring MySQL Database
 ### ERD(Entity-Relationship Diagram)
 
 * 사용자(tb_user)는 여러 개의 거래 내역(tb_transaction)을 가질 수 있다.
-* 한 개의 거래 내역(tb_transaction)에는 하나의 카테고리(tb_category)가 존재한다.
-* 사용자(tb_user)는 여러 개의 커스텀 카테고리(tb_category)를 가질 수 있으며, 이름이 동일한 커스텀 카테고리는 여러 유저에 의해 사용될 수 있다.
+* 한 개의 거래 내역(tb_transaction)에는 하나의 카테고리(tb_category)가 사용된다.
+* 사용자(tb_user)는 여러 개의 카테고리(tb_category)를 사용할 수 있으며, 이름이 동일한 카테고리는 여러 유저에 의해 사용될 수 있다.
 
 ![image](/post_assets/2020-06-14/erd.png)
