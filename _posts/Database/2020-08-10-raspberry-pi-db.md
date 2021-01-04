@@ -2,7 +2,7 @@
 layout: post
 title: "라즈베리파이에 개발 DB 구축하기"
 date: 2020-08-10 23:35:00 +0900
-categories: Project
+categories: Database
 tags: MySQL Database Raspberry-Pi
 ---
 
